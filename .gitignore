@@ -1,0 +1,41 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Data and model artifacts
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# Experiment outputs
+runs/
+outputs/
+checkpoints/
+wandb/
+mlruns/
+
+# Logs
+*.log
